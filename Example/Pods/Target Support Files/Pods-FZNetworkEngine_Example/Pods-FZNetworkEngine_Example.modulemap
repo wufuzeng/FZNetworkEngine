@@ -1,0 +1,6 @@
+framework module Pods_FZNetworkEngine_Example {
+  umbrella header "Pods-FZNetworkEngine_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

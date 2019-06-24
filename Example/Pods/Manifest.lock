@@ -1,0 +1,16 @@
+PODS:
+  - FZNetworkEngine (0.1.0)
+
+DEPENDENCIES:
+  - FZNetworkEngine (from `../`)
+
+EXTERNAL SOURCES:
+  FZNetworkEngine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZNetworkEngine: 1ff25cc895d7b27d20b26f3602a5dd535ec3615d
+
+PODFILE CHECKSUM: decae5b189126cf5880ec65d235e2a14205696b7
+
+COCOAPODS: 1.7.2

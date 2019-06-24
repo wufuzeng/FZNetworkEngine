@@ -1,0 +1,22 @@
+{
+  "name": "FZNetworkEngine",
+  "version": "0.1.0",
+  "summary": "A short description of FZNetworkEngine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wufuzeng/FZNetworkEngine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wufuzeng": "wufuzeng_lucky@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/wufuzeng/FZNetworkEngine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FZNetworkEngine/Classes/**/*"
+}
