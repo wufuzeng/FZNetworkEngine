@@ -1,15 +1,36 @@
 PODS:
-  - FZNetworkEngine (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FZNetworkEngine (0.1.0):
+    - AFNetworking (~> 3.1.0)
 
 DEPENDENCIES:
   - FZNetworkEngine (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   FZNetworkEngine:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FZNetworkEngine: 1ff25cc895d7b27d20b26f3602a5dd535ec3615d
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FZNetworkEngine: 98b442959bfda50d3033c55c14178567ad6ad659
 
 PODFILE CHECKSUM: decae5b189126cf5880ec65d235e2a14205696b7
 

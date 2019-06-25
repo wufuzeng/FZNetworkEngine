@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FZNetworkEngine'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of FZNetworkEngine.'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FZNetworkEngine/Classes/**/*'
-  
+  s.source_files = 'FZNetworkEngine/Classes/*.{h,m}','FZNetworkEngine/Classes/Private/*.{h,m}'
+  s.public_header_files = 'FZNetworkEngine/Classes/FZNetworkEngine.h'
+  s.private_header_files = 'FZNetworkEngine/Classes/Private/*.h',
   # s.resource_bundles = {
   #   'FZNetworkEngine' => ['FZNetworkEngine/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = "Foundation", "UIKit"
   s.dependency 'AFNetworking', '~> 3.1.0'
 end
